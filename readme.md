@@ -1,7 +1,7 @@
 # Basic Web Development 1
 
-- Academiejaar: 
+- Academiejaar: 2025 - 2026
 - Opleiding: 
-- Klasgroep: 
-- Naam: 
+- Klasgroep: 3
+- Naam: Elias Sossah
 
