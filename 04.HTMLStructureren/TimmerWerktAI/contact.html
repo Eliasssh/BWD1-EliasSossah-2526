@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Timmerwerkt</title>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <img src="img/logo.svg" alt="Timmerwerkt logo">
+    <nav>
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="wat.html">wat</a></li>
+        <li><a href="hoe.html">hoe</a></li>
+        <li><a href="over.html">over</a></li>
+        <li><a href="podcast.html">podcast</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Introductie -->
+  <section>
+    <h1>Contacteer Timmerwerkt</h1>
+    <p>Wil je meer informatie over wat we doen? Of een vrijblijvende offerte voor je volgende meubelproject?</p>
+    <p>Vergeet niet je <strong>woonplaats en contactgegevens</strong> te vermelden. Zo kunnen we snel op jouw vraag reageren.</p>
+    <p><a href="#">Vraag een offerte aan →</a></p>
+  </section>
+
+  <!-- Contact & Formulier -->
+  <section>
+    <div>
+      <!-- Adres -->
+      <h2>Ons atelier</h2>
+      <p>Pantserstraat 155<br>9000 Gent</p>
+      <p><a href="tel:+32484040710">+32 484 04 07 10</a></p>
+      <p><a href="mailto:info@timmerwerkt.be">info@timmerwerkt.be</a></p>
+    </div>
+
+    <!-- Formulier -->
+    <form action="#" method="post" enctype="multipart/form-data">
+      <h2>Contactformulier</h2>
+
+      <label for="vraag">Je vraag *</label><br>
+      <textarea id="vraag" name="vraag" rows="5" required></textarea><br><br>
+
+      <label for="fotos">Verduidelijk eventueel met enkele foto's</label><br>
+      <input type="file" id="fotos" name="fotos[]" multiple><br><br>
+
+      <label for="regio">Adres of regio *</label><br>
+      <input type="text" id="regio" name="regio" placeholder="b.v. Gent" required><br><br>
+
+      <label for="naam">Naam *</label><br>
+      <input type="text" id="naam" name="naam" required><br><br>
+
+      <label for="email">Email *</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="telefoon">GSM/Telefoon *</label><br>
+      <input type="tel" id="telefoon" name="telefoon" required><br><br>
+
+      <input type="checkbox" id="nieuwsbrief" name="nieuwsbrief">
+      <label for="nieuwsbrief">Ja, schrijf mij in voor de nieuwsbrief</label><br><br>
+
+      <input type="submit" value="Verstuur →">
+    </form>
+
+    <!-- Google Maps Placeholder -->
+    <div>
+      <p>Google Maps locatie:</p>
+      <p><em>Doornstraat 90, 9940 Evergem</em></p>
+      <p><a href="https://www.google.com/maps/place/Doornstraat+90,+9940+Evergem">Bekijk locatie op Google Maps</a></p>
+      <div style="width: 100%; height: 300px; background-color: #ccc;">
+        <p style="text-align: center; padding-top: 130px;">[Google Maps iframe]</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Nieuwsbrief -->
+  <section>
+    <h2>De Timmerwerkt nieuwsbrief</h2>
+    <p>Wil jij graag op de hoogte blijven over Timmerwerkt? We houden zelf niet van spam, dus het zal maar voor héél af en toe zijn.</p>
+    <form action="#" method="post">
+      <label for="nieuwsbrief-email">E-mail adres:</label>
+      <input type="email" id="nieuwsbrief-email" name="nieuwsbrief-email" required>
+      <input type="submit" value="Inschrijven →">
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+  <p>TIMMERWERKT VZW – Doornstraat 90 – 9940 Evergem – <a href="mailto:info@timmerwerkt.site">info@timmerwerkt.site</a> – +32 456 61 85 05</p>
+  <p>
+    <a href="#"><img src="afbeeldingen/home" alt="Facebook"></a>
+    <a href="#"><img src="img/icon-instagram.svg" alt="Instagram"></a>
+    <a href="#"><img src="img/icon-pinterest.svg" alt="Pinterest"></a>
+    <a href="#"><img src="img/icon-youtube.svg" alt="YouTube"></a>
+  </p>
+</footer>
+
+
+</body>
+</html>
+
