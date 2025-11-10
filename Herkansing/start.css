@@ -1,0 +1,11 @@
+#Picca {
+   width: 200px;
+   height: auto;
+   float: left;
+   display: flex;
+}
+nav{
+    float: right;
+    display: flex;
+}
+
