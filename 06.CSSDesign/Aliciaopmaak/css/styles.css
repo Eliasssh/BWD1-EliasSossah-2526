@@ -3,53 +3,112 @@
  * Common styles
  *
  * @author !put your name here!
- *
+ *Elias Sossah
  */
 
 /* ===========================================
    General
    =========================================== */
 
-/* html, body and general element styles here */
-/* ... */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-
-/* ===========================================
+menu, body{
+   margin: 0;
+   padding: 0;
+   background-color: #dfdfdf;
+}
+body{
+   font-family: 'Roboto', sans-serif;
+   font-size: 13px;
+   line-height: 1.8;
+   max-width: 960px;
+   margin: 0 auto;
+   border-radius: 15px 15px 0 0;
+   background-color: white;
+   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+body p, li{
+   color: #333;
+}
+a{
+color: B52025;
+text-decoration: none;
+transition:color 0,3s;
+}
+a:hover{
+   text-decoration: underline;
+}
+/*===========================================
    Menu
    =========================================== */
-nav{
+header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 15px 30px;
+}
+nav ul{
+   list-style: none;
+   display: flex;
+   margin: 0;
+   padding: 0;
+   gap: 20px;
+}
+nav a{
+   color: #B52025;
+   text-decoration: none;
+   font-weight: bold;
+   padding: 8px 12px; /* klikbare ruimte vergroten */
+   border-radius: 5px; /* afgeronde hoeken */
+   transition: background-color 0.3s, color 0.3s;
+}
+nav a:hover{
+   background-color: #B52025;
    color: white;
 }
-
-a:hover{
-   color: red;
-}
-/* menu styles here */
-/* ... */
-
-
-
 /* ===========================================
    Banner
    =========================================== */
-banner{
-   
+#banner{
+position: relative; /* maakt het mogelijk om tekst boven de foto te zetten */
+border: #B52025 5px solid;
+height: 280px;
+overflow: hidden; /* zorgt ervoor dat de afbeelding niet buiten de banner komt */
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
-/* banner styles here */
-/* ... */
+#banner img{
+width: 100%;
+height: auto;
+object-fit: cover; /* zorgt ervoor dat de afbeelding de hele banner vult */
 
-
+}
+#banner p{
+position: absolute;/* Plaats de tekst boven de afbeelding */
+bottom: 0;
+left: 0;
+right: 0;
+padding: 15px;
+background-color: rgba(0, 0, 0, 0.5); /* Transparante zwarte achtergrond */
+color: white;
+font-size:auto;
+}
 
 /* ===========================================
    Main
    =========================================== */
 main{
-
+   display: flex;
+   justify-content: space-between;
 }
-/* main styles here */
-/* ... */
-
-
+img{
+border: 1px solid; 
+}
+h1, h2, h3{
+   color: #B52025;
+   margin-top: 0;
+   font-family: 'Roboto', sans-serif;
+   list-style: none;
+}
 /* ===========================================
    Footer
    =========================================== */
