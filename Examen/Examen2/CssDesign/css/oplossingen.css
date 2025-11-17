@@ -1,0 +1,88 @@
+/*
+ * Jouw oplossing hier
+ *
+ * Kokoumawugnoelias.sossah@student.odisee.be
+ */
+
+
+/* 1. logo tekst */
+#logo__text {
+    font-family: Yanone Kaffeesatz, sans-serif;
+    color: #E14F43;
+    font-size: 50px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+#logo__tagline {
+    font-family: Yanone Kaffeesatz, sans-serif;
+    color: #666;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+/* 2. buttons */
+.buttonheader_button {
+    display: inline-block;
+    color: #66bb99;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #66bb99;
+    border-color: #66bb99;
+    border-radius: 5px;
+
+}
+
+.buttonheader_button:hover {
+    color: #ee5544;
+}
+
+/* 3. menu */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    padding: 15px 30px;
+}
+nav ul {
+   list-style: none;
+   display: flex;
+   margin: 0;
+   padding: 0;
+   gap: 20px;
+}
+
+nav a {
+   color: #666;
+   text-decoration: none;
+   font-weight: bold;
+   padding: 8px 12px;
+   /* klikbare ruimte vergroten */
+   border-radius: 5px;
+   /* afgeronde hoeken */
+   transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+   color: 999;
+}
+/* 4. banner */
+
+#banner {
+   position: relative;
+   /* maakt het mogelijk om tekst boven de foto te zetten */
+   border: 5px solid;
+   height: 280px;
+   overflow: hidden;
+   /* zorgt ervoor dat de afbeelding niet buiten de banner komt */
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#banner img {
+   width: 100%;
+   height: auto;
+   object-fit: cover;
+   /* zorgt ervoor dat de afbeelding de hele banner vult */
+
+}/* 5. gallery kaders */
