@@ -1,0 +1,34 @@
+/*
+ * Jouw oplossing hier
+ *
+ * @author Jouw Naam <jouw.email@student.odisee.be>
+ */
+
+/* 1. algemene tekst */
+* {
+   font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+   color: #666;
+   font: size 15px;
+   line-height: 1.6;
+}
+/* 2. buttons */
+.pright 
+{
+display:inline-block;
+color: #ee5544;
+text-transform:uppercase;
+padding: 10px;
+}
+
+.pright :hover
+{
+background-color: #66bb99;
+transition: 0,3s;
+
+}
+
+
+/* 3. sociale media menu */
+
+/* 4. testimonials */
+
